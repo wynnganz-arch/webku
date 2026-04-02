@@ -5,6 +5,7 @@ body{
  font-family:sans-serif;
  margin:0 auto;
 }
+
 .header{
     widht:90%
     margin:auto;
@@ -13,15 +14,17 @@ body{
     backround:#417aa8;
     color:#fff;
 }
+
 .jarak{
      padding:0 2pc;
 }
+
 .menu{
- backround-color:#417aa8;
- height:50px;
- line-hright:50px;
- position:relative;
- widht:90%;
- margin:0 auto;
- padding:0 auto;
+  backround-color:#417aa8;
+  height:50px;
+  line-hright:50px;
+  position:relative;
+  widht:90%;
+  margin:0 auto;
+  padding:0 auto;
 }
