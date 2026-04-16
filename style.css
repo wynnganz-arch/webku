@@ -1,6 +1,6 @@
 body {
-    background: #4caf50; /* Warna hijau seperti di gambar */
-    color: #fff;
+    background: #ffffff; /* Mengubah hijau menjadi putih */
+    color: #333;        /* Mengubah teks menjadi gelap agar kontras dengan putih */
     width: 100%;
     font-family: sans-serif;
     margin: 0;
