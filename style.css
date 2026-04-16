@@ -1,30 +1,139 @@
-body{
-    background:#f3f3f3;
-    color:#333;
-    width:100%;
-    font-family:sans-serif;
-    margin:0 auto;
+/* Reset Dasar */
+* {
+    box-sizing: border-box;
 }
 
-.header{
-    widht:90%;
-    margin:auto;
-    height:120px;
-    line-height:120px;
-    backround:#417aa8;
-    color:#fff;
+body {
+    background-color: #4caf50; /* Warna hijau latar belakang sesuai gambar */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px 0;
 }
 
-.jarak{
-     padding:0 2pc;
+.jarak {
+    padding: 0 30px;
 }
 
-.menu{
-  backround-color:#417aa8;
-  height:50px;
-  line-hright:50px;
-  position:relative;
-  widht:90%;
-  margin:0 auto;
-  padding:0 auto;
+/* Header */
+.header {
+    width: 90%;
+    margin: auto;
+    background-color: #417aa8;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Navigasi */
+.menu {
+    width: 90%;
+    margin: auto;
+    background-color: #5b89ae;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Konten Utama */
+.content {
+    width: 90%;
+    margin: auto;
+    background-color: #111111; /* Warna hitam konten */
+    color: white;
+    padding: 20px 0;
+    min-height: 400px;
+    overflow: hidden; /* Agar float tidak berantakan */
+}
+
+.kiri {
+    width: 70%;
+    float: left;
+}
+
+.kanan {
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+}
+
+/* Kotak Artikel (Border) */
+.border {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.border h3 {
+    margin-top: 0;
+    color: #417aa8;
+}
+
+.btn {
+    background: #222;
+    color: #ccc;
+    border: 1px solid #444;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+/* Sidebar */
+.kanan h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.kanan hr {
+    border: 0;
+    border-top: 1px solid #333;
+    margin-bottom: 15px;
+}
+
+.sidebar-list p {
+    margin: 8px 0;
+}
+
+.sidebar-list a {
+    color: #417aa8;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Footer */
+.footer {
+    width: 90%;
+    margin: auto;
+    background-color: #417aa8;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0;
 }
